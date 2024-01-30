@@ -132,5 +132,6 @@ begin
     end
 end
 
-`define print(a,b) int_print({>>{a}},b)
+// `define print(a,b) int_print({>>{a}},b)
+`define print(a,b) int_print({{a}},b)
 endtask
