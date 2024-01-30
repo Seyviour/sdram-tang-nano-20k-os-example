@@ -1,0 +1,7 @@
+read_verilog "/home/saviour/pro-projects/nestang-abeg/sdram-tang-nano-20k/src/gowin_rpll/gowin_rpll.v"
+read_verilog "uart_tx_V2.v"
+read_verilog "sdram.v"
+read_verilog "sdram_top.v"
+
+
+synth_gowin -json sdram.synth.json
