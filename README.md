@@ -16,3 +16,7 @@ Kindly See the original repository [https://github.com/nand2mario/sdram-tang-nan
 - [openFPGALoader](https://github.com/trabucayre/openFPGALoader) to flash the bitsream.
   
 To generate the bistream, kindly run `make sdram.fs` from the `src` directory. If you get LEDS 1-3 on after flashing the bitsream, then the SDRAM is likely working correctly :)
+
+# Using Docker
+
+To build using Docker, run `build_w_Docker.cmd` in a Command Prompt in Windows, or build_w_Docker.sh in macOS or Linux :)
